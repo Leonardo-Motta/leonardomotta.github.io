@@ -70,6 +70,10 @@ h1{
     box-shadow: 1px 1px 7px #555;
     transition: .3s;
 }
+.btns:hover{
+    color: #28c5ec;
+    background: transparent;
+}
 .experience{
     text-align: center;
     padding: 20px 0;
