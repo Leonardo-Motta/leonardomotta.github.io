@@ -45,22 +45,30 @@ h1{
     padding: 20px 0;
     color: #a1a1a1;
     font-size: 1.5rem;
+    transition: .3s;
 }
 .icons i{
     margin: 0 5px;
 } 
+.icons i:hover{
+    transform: translate(-5px);
+}
 .seccion article{
     margin-bottom: 30px;
     text-align: center;
 }
-.btns button{
+.btns{
     padding: 10px 20px;
     background-color: #28c5ec;
     border: none;
     color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
     margin: 0 10px;
     cursor: pointer;
     box-shadow: 1px 1px 7px #555;
+    transition: .3s;
 }
 .experience{
     text-align: center;
